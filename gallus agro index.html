@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallus Agro - Vente d'œufs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    /* Header */
+    header {
+      background-color: #28a745; /* vert */
+      padding: 20px;
+    }
+
+    header img {
+      width: 150px;
+      margin-bottom: 10px;
+      border-radius: 50%; /* logo rond */
+      border: 4px solid white; /* contour blanc */
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    /* Bouton */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #ff9900;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    /* Images produits */
+    .images-produits {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .images-produits img {
+      width: 150px;
+      border-radius: 10px; /* coins arrondis pour un style sympa */
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header avec logo et menu -->
+  <header>
+    <img src="logoGallus.png" alt="Logo Gallus Agro">
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#produits">Produits</a>
+      <a href="#commander">Commander</a>
+    </nav>
+  </header>
+
+  <!-- Section Accueil -->
+  <section id="accueil">
+    <h2>Bienvenue chez Gallus Agro 🐓</h2>
+    <p>Nous sommes spécialisés dans la vente d'œufs frais au Sénégal.</p>
+  </section>
+
+  <!-- Section Produits avec images fixes -->
+  <section id="produits">
+    <h2>Nos Produits</h2>
+    <p>Des œufs de qualité, disponibles à la vente en plateau ou en gros.</p>
+
+    <div class="images-produits">
+      <img src="plateau1.png" alt="Plateau d'œufs 1">
+      <img src="plateau2.png" alt="Plateau d'œufs 2">
+      <img src="plateau3.png" alt="Plateau d'œufs 3">
+    </div>
+  </section>
+
+  <!-- Section Commander -->
+  <section id="commander">
+    <h2>Commander</h2>
+    <p>Pour passer votre commande, contactez-nous au <strong>+221 77 751 0058</strong></p>
+    <a href="mailto:contact@gallusagro.com" class="btn">Envoyer un Email</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Gallus Agro - Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
